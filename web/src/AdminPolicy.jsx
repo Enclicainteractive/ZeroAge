@@ -1,5 +1,5 @@
-import { useCallback, useEffect, useState } from 'react';
-import { getToken, request } from './src/api.js';
+import React, { useCallback, useEffect, useState } from 'react';
+import { getToken, request } from './api.js';
 
 const FLAGS = [
   'enabled', 'requireEU', 'requireUK', 'requireUSStates', 'signupGate', 'blockCoreVR', 'blockRealtime', 'dashboardNotice',
